@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Arakur</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f43a9e1652.js" crossorigin="anonymous"></script>
+    <link href="./css/estilos.css">
+<script></script>
+
+
+</head>
+<body>
+    <header>
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-lg-12 col-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#"><img src="assets/img/logo_arakur.png" alt="logo"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Servicios</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Habitaciones
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Doble Superior</a></li>
+                                    <li><a class="dropdown-item" href="#">Triple</a></li>
+                                    <li><a class="dropdown-item" href="#">Senior Suites</a></li>
+                                    <li><a class="dropdown-item" href="#">Twin Deluxe</a></li>
+                                    </ul>
+                                </li>
+                                </ul>
+                                <form class="d-flex p-1">
+                                <button class="btn btn-outline-success" type="submit">INGRESAR</button>
+                                </form>
+                                <form class="d-flex p-1" >
+                                    <button class="btn btn-outline-success" type="submit">RESERVAR</button>
+                                    </form>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-12 col-lg-12">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/piscina_exterior.jpg" class="d-block w-100" alt="piscina exterior arakur">
+                                <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/piscina_exterior.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/piscina_exterior.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block text-al">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 shadow p-3 mb-5 bg-body rounded">
+                    <form class="row gy-2 gx-3 justify-content-center">
+                        
+                        <div class="col-auto">
+                            <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                            <select class="form-select" id="autoSizingSelect">
+                            <option selected>Check In</option>
+                            <option value="1">Enero</option>
+                            <option value="2">Febrero</option>
+                            <option value="3">Marzo</option>
+                            <option value="4">Abril</option>
+                            <option value="5">Mayo</option>
+                            <option value="6">Junio</option>
+                            <option value="7">Julio</option>
+                            <option value="8">Agosto</option>
+                            <option value="9">Septiembre</option>
+                            <option value="10">Octubre</option>
+                            <option value="11">Noviembre</option>
+                            <option value="12">Diciembre</option>
+                            </select>
+                        </div>
+                        <div class="col-auto">
+                        <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                        <select class="form-select" id="autoSizingSelect">
+                            <option selected>Fecha</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        </div>
+                        <div class="col-auto">
+                            <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                            <select class="form-select" id="autoSizingSelect">
+                            <option selected>Check out</option>
+                            <option value="1">Enero</option>
+                            <option value="2">Febrero</option>
+                            <option value="3">Marzo</option>
+                            <option value="4">Abril</option>
+                            <option value="5">Mayo</option>
+                            <option value="6">Junio</option>
+                            <option value="7">Julio</option>
+                            <option value="8">Agosto</option>
+                            <option value="9">Septiembre</option>
+                            <option value="10">Octubre</option>
+                            <option value="11">Noviembre</option>
+                            <option value="12">Diciembre</option>
+                            </select>
+                        </div>
+                        <div class="col-auto">
+                            <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                            <select class="form-select" id="autoSizingSelect">
+                                <option selected>Fecha</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                        </div>
+                        <div class="col-auto">
+                        <button type="submit" class="btn btn-dark">RESERVAR</button>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12 col-lg-12">
+                    <h2>Habitaciones</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row p-3">
+                <div class="col-12 col-lg-12">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card text-center shadow p-3 mb-5 bg-body rounded">
+                                <img src="assets/img/doblesuperior.jpg" class="card-img-top" alt="Habitacion doble superior">
+                                <div class="card-body">
+                                <h5 class="card-title" >Doble Superior</h5>
+                                <p class="card-text">Elegantemente decoradas con detalles de diseño contemporáneo y equipadas con la última tecnología de confort.
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-center shadow p-3 mb-5 bg-body rounded">
+                                <img src="assets/img/seniorSuiteSquareTOV.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Senior Suite</h5>
+                                <p class="card-text">Las Senior Suites de Arakur cuentan con dos cómodos ambientes que incluyen un living, escritorio y dormitorio.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-center shadow p-3 mb-5 bg-body rounded">
+                                <img src="assets/img/triples.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Triples</h5>
+                                <p class="card-text">Habitaciones triples con vista Norte a los valles de Andorra y del Río Chico.
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-center shadow p-3 mb-5 bg-body rounded">
+                                <img src="assets/img/twin-deluxe.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Twin Deluxe</h5>
+                                <p class="card-text">Decoradas con detalles de diseño contemporáneo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12 col-lg-12">
+                    <h2>Servicios</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row my-3">
+                <div class="col-md-4 shadow p-3 mb-5 bg-body rounded ">
+                    <div class="card text-center h-100">
+                        <div class="card-block">
+                            <h4 class="card-title">Piscinas</h4>
+                            <h2><i class="fa-solid fa-water-ladder fa-3x" ></i></h2>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4 shadow p-3 mb-5 bg-body rounded">
+                    <div class="card text-center h-100">
+                        <div class="card-block">
+                            <h4 class="card-title">Actividades indoors</h4>
+                            <h2><i class="fa-solid fa-dumbbell fa-3x"></i></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 shadow p-3 mb-5 bg-body rounded">
+                    <div class="card text-center h-100 card-info">
+                        <div class="card-block">
+                            <h4 class="card-title">Actividades outdoors</h4>
+                            <h2><i class="fa-solid fa-map fa-3x"></i></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid p-3"style="background-color: black">
+            <div class="row text-center">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="text-center">
+                        <img src="assets/img/logo_arakur.png">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <h6 class="heading">Arakur Ushuaia Resort & Spa </h6>
+                    <ul>
+                        <li>
+                        <a href="#">Sobre Nosotros</a>
+                        </li>
+                        <li>
+                        <a href="preguntasfrecuentes.html">Preguntas Frecuentes</a>
+                        </li>
+                        <li>
+                        <a href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <h6 class="heading">Contactanos</h6>
+                    <ul class="card-text">
+                        <li>
+                            <a href="mailto:  info@arakur.com" target="_blank">  info@arakur.com</a>
+                        </li>
+                        <li>
+                            <a href="https://api.whatsapp.com/send?phone=123" target="_blank">+54 (011) 21704621</a>
+                        </li>
+                    </ul>
+                </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center">2022 Arakur Ushuaia Resort & Spa. Todos los derechos reservados ©</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
