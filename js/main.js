@@ -11,5 +11,6 @@ if(edadUser>=18){alert("Puedes alojarte con nosotros");
     else {
         edadUser = parseInt( prompt ("Debe ser mayor de edad para poder alojarse con nosotros"))
         esMenor=true;
-        console.log('No puedes reservar siendo menor, por favor contacta a un mayor')}}
-
+        console.log('No puedes reservar siendo menor, por favor contacta a un mayor')
+    }
+}
